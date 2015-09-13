@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 			console.error();
 
 			grunt.registerTask('default', []);
-			grunt.registerTask('heroku:production', 'clean less mincss uglify');
+			grunt.registerTask('heroku', 'clean less mincss uglify');
 			return;
 		}
 	}
