@@ -81,5 +81,5 @@ module.exports = {
    ***************************************************************************/
 
    // environment: process.env.NODE_ENV || 'development'
-   hookTimeout: 30000, // 30 seconds
+
 };

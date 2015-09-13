@@ -37,5 +37,6 @@ module.exports = {
   production: {
     adapter: 'sails-mongo',
     url: 'process.env.MONGOLAB_URI'
-  }
+  },
+  hookTimeout: 40000 // 30 seconds
 };
