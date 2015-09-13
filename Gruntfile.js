@@ -78,6 +78,5 @@ module.exports = function(grunt) {
 	invokeConfigFn(taskConfigurations);
 	invokeConfigFn(registerDefinitions);
 
-	grunt.registerTask('heroku:production', 'build');
 
 };
