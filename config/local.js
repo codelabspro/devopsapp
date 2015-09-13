@@ -81,5 +81,12 @@ module.exports = {
    ***************************************************************************/
 
    // environment: process.env.NODE_ENV || 'development'
+   session: {
+     adapter: 'memory'
+   },
+
+   sockets: {
+     adapter: 'memory'
+   }
 
 };
