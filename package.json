@@ -28,7 +28,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "sails lift --prod"
+    "start": "sails lift --prod",
+    "postinstall": "bash ./post_install.sh"
   },
   "main": "app.js",
   "repository": {
